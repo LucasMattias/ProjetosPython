@@ -221,6 +221,10 @@ if pers == 'NASUS':
             print('Os dois se uniram para reerguer shurima, que foi severamente destruida após muitas guerras por poder!\n')
             sleep(4)
         elif perdre == 'N':
+            print('Após escutar seu irmão, \033[1:33mRenekton\033[1:34m prefere morrer que perdoá-lo...')
+            sleep(3)
+            print('...')
+            sleep(3)
             print(f'Depois de não ser perdoado por seu irmão, \033[1:32mNasus\033[1:34m atravessa {ssua} \033[1:31m{esc.lower()}\033[1:34m na cabeça dele, dando fim a ameaça que \033[1:33mRenekton\033[1:34m representava...\n')
             sleep(3)
             print(
@@ -249,4 +253,3 @@ if pers == 'NASUS':
             print('Após matar seu irmão, \033[1:32mNasus\033[1:34m reuniu os conselheiros e trabalhou incessantemente para reerguer a nação Shurimane.')
             sleep(4)
 print(f'\n\033[1:36m{"FIM":=^60}')
-
